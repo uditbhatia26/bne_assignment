@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Text Processor</title>
+</head>
+<body>
+    <h2>AI Text Processor</h2>
+
+    <textarea id="input" rows="6" cols="70" placeholder="Enter text..."></textarea>
+    <br><br>
+    <button onclick="processText()">Process</button>
+
+    <p id="status"></p>
+    <p id="error" style="color:red;"></p>
+
+    <div id="result" style="display:none;">
+        <h3 id="title"></h3>
+        <ul id="points"></ul>
+        <p id="rewrite"></p>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
