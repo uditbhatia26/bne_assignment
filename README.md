@@ -23,7 +23,7 @@ A Django web application that processes user text using OpenAI's GPT-4o model, d
 
 ### Prerequisites
 - Python 3.8+
-- OpenAI API key ([Get one here](https://platform.openai.com/api-keys))
+- OpenAI API key
 
 ### Installation
 
